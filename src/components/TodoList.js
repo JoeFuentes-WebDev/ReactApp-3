@@ -1,0 +1,1 @@
+export const TodoList = ({ todos }) => <>{todos.map(todo => <li key={todo.id}> {todo.title} (by user: {todo.userId})</li>)}</>
